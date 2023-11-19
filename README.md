@@ -1,3 +1,3 @@
 # Site-com-Git
 
-## Fiz uma alteração para testar autentição
+## Fazendo o live share no Visual Studio Code
