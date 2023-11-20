@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.bloco_overflow{
+    gap: 18px;
+    justify-content: center;
+}
+
+.overflow1{
+    width: 589px;
+    position: relative;
+}
+
+.overflow2{
+    width: 586px;
+    position: relative;
+}
+
+.overflow1, .overflow2{
+    gap: 8px;
+}
+
+h2{
+    color: #E62121;
+}
+
+.e{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.gradientvermelho{
+    width: 237px;
+    height: 221px;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(240, 62, 62, 0.41) 0%, rgba(240, 62, 62, 0.00) 100%);
+    top: 0px;
+}
+
+.imgs1>:nth-child(1){
+    margin-right: 17px;
+    position: relative;
+}
+
+.imgs1>:nth-child(2){
+    margin-right: 31px;
+}
+
+.imgs1, .imgs2{
+    overflow: hidden;
+}
+
+.imgs1>:nth-child(1) p{
+    width: 229px;
+}
+
+.imgs1 :nth-child(3) p{
+    width: 160px;
+}
+
+.gradientvideo{
+    width: 384px;
+    height: 221px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(34, 34, 34, 0.84) 30.52%, rgba(34, 34, 34, 0.31) 100%);
+    position: absolute;
+    top: 0px;
+}
+
+.playbutton{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 88px;
+    left: 169.5px;
+}
+
+.pbrelative{
+    position: relative;
+}
+
+.play{
+    position: absolute;
+    left: 13.5px;
+    top: 10px;
+}
+
+.imgs2>:nth-child(1){
+    width: 384px;
+    margin-right: 21px;
+    position: relative;
+}
+
+.imgs2>:nth-child(1) p{
+    width: 382px;
+}
+
+.imgs2>:nth-child(2) p{
+    width: 245px;
+}
+
+.maisfotos{
+    gap: 20.5px;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.maisfotos p{
+    color: #E62121;
+}
+
+.gradientbranco{
+    width: 81px;
+    height: 300px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FDFDFD 82.6%);
+    position: absolute;
+    left: 510px;
+}
+
+.gradientbranco2{
+    position: absolute;
+    left: 501px;
+}
+
+.gradientbranco2 div{
+    width: 81px;
+    height: 300px;
+}
+
+.gradientbranco2 :nth-child(1){
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FDFDFD 82.6%);
+}
+
+.gradientbranco2 :nth-child(2){
+    background-color: #FDFDFD;
+}
