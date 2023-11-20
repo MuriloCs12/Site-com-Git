@@ -1,3 +1,16 @@
-# Site-com-Git
+# Montagem do site Histórias em Detalhes
 
-## Fazendo o live share no Visual Studio Code
+## Colaboradores
+- Murilo
+- Clara
+
+## Tarefas
+- Upload inicial (Murilo)
+- Header (Clara)
+- Main
+- Footer
+
+## Prints das interações
+
+## Links externos
+[Sintaxe Básica para escrever Markdown](https://www.markdownguide.org/basic-syntax/)
