@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1190px;
+}
+.space{
+    justify-content: space-between;
+}
+.coluna{
+    flex-direction: column;
+}
+.series-posts{
+    padding-bottom: 120px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.publi{
+    margin-bottom: 17px;
+}
+.series-posts h2{
+    color:#273644;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 120%; 
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.series-posts .p{
+    color: #8D9AA6;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 160%;
+    padding-bottom: 35px;
+}
+.series-posts .publi .borda{
+    flex: 1;
+    border: 1px solid #EB5151;
+    border-radius: 5px;
+    padding: 20px;
+    max-height: 260px;
+}
+.series-posts .publi{
+    gap: 20px;
+    box-sizing: border-box;
+}
+.series-posts .publi p{
+    font-weight: 700;
+    color:#C11616;
+}
+.series-posts .publi small{
+    color:#EB5151;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+.series-posts .publi .txt{
+    font-size: 18px;
+    color: #C11616;
+}
+.series-posts .publi span{
+    color:#8D9AA6;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 160%;
+}
+.series-posts .publi .top{
+    margin-bottom: 15px;
+}
+.series-posts .publi .mid{
+    margin-bottom: 25px;
+}
+.series-posts .publi .bot{
+    border-top: 1px solid #EB5151;
+    padding-top: 10px;
+}
+.series-posts .botao{
+    color:#2648A1;
+    border-bottom: 1px solid;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: 300;   
+
+}
+#footer .links a{
+    color:#3C4B58;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+.links{
+    align-items: flex-end;
+}
+#footer{
+    padding-top: 40px;
+	padding-bottom: 40px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+
+}
+#footer .links a:nth-child(1){
+    border-bottom: solid 1px;
+    width: max-content;
+}
+#footer p{
+    color: #C11616;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 300;   
+    line-height: 160%;
+}
+#footer strong{
+    font-weight: 600px;
+}
+.traco{
+    position: relative;
+    background-color: #C11616;
+    width: 60px;
+    height: 1px;
+    top: 7px;
+    left: 20px;
+}
