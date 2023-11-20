@@ -143,3 +143,84 @@ h2{
 .gradientbranco2 :nth-child(2){
     background-color: #FDFDFD;
 }
+
+/*Últimos Posts*/
+
+.ultimos-posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.ultimos-posts-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    margin: 34px 0 34px 0;
+}
+
+.titulo-geral-posts{
+    padding-bottom: 10px;
+    padding-top: 80px;
+}
+
+.titulo-post{
+    color: #273644;
+    font-size: 21px;
+    font-weight: 700;
+    max-width: 730px;
+}
+
+.titulo-geral-posts, .post-info{
+    color: #8D9AA6;
+    font-weight: 300;
+}
+
+.titulo-geral-posts{
+    font-size: 26px;
+}
+
+.post-info, .cronicas-contos{
+    font-size: 14px;
+}
+
+.cronicas-contos{
+    color: #3C4B58;
+    font-weight: 300;
+}
+
+.linha-inferior{
+    width: 788px;
+    height: 1px;
+    background-color: #D3DDE6;
+}
+
+.comentarios{
+    background-image: url(img/balaozinhopreto.svg);
+    background-repeat: no-repeat;
+    padding-bottom: 12px;
+    margin-top: -8px;
+}
+
+.comentarios p{
+    color:  #F9FAFC;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 6px 0 6px;
+}
+
+.sobre-o-post{
+    display: flex;
+    gap: 22px;
+}
+.ver-noticias{
+    color: #2648A1;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 18px;
+    align-self: flex-end;
+}
