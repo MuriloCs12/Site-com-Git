@@ -25,6 +25,15 @@ ul {
     margin: auto;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 1190px;
+}
+
+.space{
+    justify-content: space-between;
+}
+
 .flex{
     display: flex;
 }
