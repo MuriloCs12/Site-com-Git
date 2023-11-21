@@ -41,6 +41,49 @@ ul {
     align-items: center;
 }
 
+/* Configuração */
+
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+    --dark-red: #C11616;
+    --neutras-white: #fff;
+    --neutras-aco: #273644;
+    --neutras-gray: #8D9AA6;
+    --neutras-prata: #3C4B58;
+    --gray: #EFF2F7;
+    --ui-color-danger-light: #EB5151;
+    --red: #F00;
+}
+
+.center {
+    width: 788px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
 /* Introdução */
 
 .introducao {
@@ -226,7 +269,7 @@ ul {
     color: var(--neutras-gray)
 }
 
-/* Galeria de Fotos */
+/* Site */
 
 .bloco_overflow{
     gap: 18px;
@@ -386,14 +429,14 @@ h2{
 }
 
 .titulo-post{
-    color: var(--neutras-aco);
+    color: #273644;
     font-size: 21px;
     font-weight: 700;
     max-width: 730px;
 }
 
 .titulo-geral-posts, .post-info{
-    color: var(--neutras-gray);
+    color: #8D9AA6;
     font-weight: 300;
 }
 
@@ -406,7 +449,7 @@ h2{
 }
 
 .cronicas-contos{
-    color: var(--neutras-prata);
+    color: #3C4B58;
     font-weight: 300;
 }
 
