@@ -20,6 +20,11 @@ ul {
     --red: #F00;
 }
 
+.center {
+    width: 788px;
+    margin: auto;
+}
+
 .flex{
     display: flex;
 }
@@ -196,14 +201,14 @@ h2{
 }
 
 .titulo-post{
-    color: #273644;
+    color: var(--neutras-aco);
     font-size: 21px;
     font-weight: 700;
     max-width: 730px;
 }
 
 .titulo-geral-posts, .post-info{
-    color: #8D9AA6;
+    color: var(--neutras-gray);
     font-weight: 300;
 }
 
@@ -216,7 +221,7 @@ h2{
 }
 
 .cronicas-contos{
-    color: #3C4B58;
+    color: var(--neutras-prata);
     font-weight: 300;
 }
 
