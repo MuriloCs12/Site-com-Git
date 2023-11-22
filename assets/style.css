@@ -131,6 +131,10 @@ ul {
     position: relative;
 }
 
+.jacinto{
+    line-height: 160%;
+}
+
 .img-text p {
     position: absolute;
     font-size: 12px;
