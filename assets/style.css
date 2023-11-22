@@ -422,7 +422,7 @@ h2{
     background-color: #FDFDFD;
 }
 
-/*Últimos Posts*/
+/* Últimos Posts */
 
 .ultimos-posts{
     width: 100%;
@@ -494,7 +494,7 @@ h2{
     align-self: flex-end;
 }
 
-/*Séries posts*/
+/* Séries posts */
 
 .series-posts{
     padding-bottom: 120px;
@@ -569,6 +569,8 @@ h2{
     font-size: 16px; 
     font-weight: 300;   
 }
+
+/* Footer */
 
 #footer .links a{
     color:#3C4B58;
